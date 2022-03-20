@@ -85,3 +85,4 @@ function() {
   
   c(hash_gr1, hash_gr2, hash_gr3) %>% as.character() %>% digest(algo="sha1", serialize=F)
 }
+
